@@ -96,3 +96,4 @@ def addPagesToChapter():
 copyfiles(path + "/Edits/UserEdits.diffpack/UserModules/UserModule.playgroundmodule/Sources", newPath + "/Contents/UserModules/UserModule.playgroundmodule/Sources")
 copyPages(path + "/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/Pages", newPath + "/Contents/Chapters/Chapter1.playgroundchapter/Pages")
 addPagesToChapter()
+shutil.rmtree(newPath + "/Edits/UserEdits.diffpack")
